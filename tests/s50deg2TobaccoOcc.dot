@@ -1,0 +1,17 @@
+Graph {
+	labelloc=top;
+	fontsize=18;
+	label="S50, [tobacco_Non,tobacco_occasional_regular,cannabis_Non,cannabis_occasional_regular_triedOnce,cannabis_Non_triedOnce,cannabis_occasional_regular,alcohol_Non,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_Non_onceTwiceAYear,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek,alcohol_Non_onceAMonth_onceTwiceAYear,alcohol_onceAWeek_moreThanOnceAWeek,sport_notRegular,sport_regular]";
+	11 [label="11 [tobacco_occasional_regular,cannabis_occasional_regular_triedOnce,cannabis_Non_triedOnce,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek,alcohol_onceAWeek_moreThanOnceAWeek,sport_regular]"];
+	12 [label="12 [tobacco_occasional_regular,cannabis_occasional_regular_triedOnce,cannabis_occasional_regular,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek,alcohol_onceAWeek_moreThanOnceAWeek,sport_regular]"];
+	15 [label="15 [tobacco_occasional_regular,cannabis_Non,cannabis_Non_triedOnce,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek,alcohol_onceAWeek_moreThanOnceAWeek,sport_regular]"];
+	16 [label="16 [tobacco_occasional_regular,cannabis_occasional_regular_triedOnce,cannabis_Non_triedOnce,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek,alcohol_onceAWeek_moreThanOnceAWeek,sport_regular]"];
+	42 [label="42 [tobacco_occasional_regular,cannabis_occasional_regular_triedOnce,cannabis_occasional_regular,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek,alcohol_onceAWeek_moreThanOnceAWeek,sport_notRegular]"];
+	44 [label="44 [tobacco_occasional_regular,cannabis_occasional_regular_triedOnce,cannabis_occasional_regular,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek,alcohol_onceAWeek_moreThanOnceAWeek,sport_notRegular]"];
+	11 -- 15;
+	11 -- 16;
+	12 -- 42;
+	12 -- 44;
+	15 -- 16;
+	42 -- 44;
+}

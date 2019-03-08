@@ -1,0 +1,26 @@
+Graph {
+	labelloc=top;
+	fontsize=18;
+	label="S50, [tobacco_Non,tobacco_occasional_regular,cannabis_Non,cannabis_occasional_regular_triedOnce,cannabis_Non_triedOnce,cannabis_occasional_regular,alcohol_Non,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_Non_onceTwiceAYear,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek,alcohol_Non_onceAMonth_onceTwiceAYear,alcohol_onceAWeek_moreThanOnceAWeek,sport_notRegular,sport_regular]";
+	17 [label="17 [tobacco_Non,cannabis_Non,cannabis_Non_triedOnce,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_Non_onceTwiceAYear,alcohol_Non_onceAMonth_onceTwiceAYear,sport_notRegular]"];
+	21 [label="21 [tobacco_Non,cannabis_Non,cannabis_Non_triedOnce,alcohol_Non,alcohol_Non_onceTwiceAYear,alcohol_Non_onceAMonth_onceTwiceAYear,sport_regular]"];
+	22 [label="22 [tobacco_Non,cannabis_Non,cannabis_Non_triedOnce,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek,alcohol_Non_onceAMonth_onceTwiceAYear,sport_notRegular]"];
+	24 [label="24 [tobacco_Non,cannabis_Non,cannabis_Non_triedOnce,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek,alcohol_Non_onceAMonth_onceTwiceAYear,sport_regular]"];
+	25 [label="25 [tobacco_Non,cannabis_Non,cannabis_Non_triedOnce,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek,alcohol_Non_onceAMonth_onceTwiceAYear,sport_regular]"];
+	31 [label="31 [tobacco_Non,cannabis_Non,cannabis_Non_triedOnce,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek,alcohol_onceAWeek_moreThanOnceAWeek,sport_regular]"];
+	34 [label="34 [tobacco_Non,cannabis_Non,cannabis_Non_triedOnce,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_Non_onceTwiceAYear,alcohol_Non_onceAMonth_onceTwiceAYear,sport_regular]"];
+	43 [label="43 [tobacco_Non,cannabis_Non,cannabis_Non_triedOnce,alcohol_onceAMonth_onceAWeek_moreThanOnceAWeek_onceTwiceAYear,alcohol_Non_onceTwiceAYear,alcohol_Non_onceAMonth_onceTwiceAYear,sport_regular]"];
+	17 -- 21;
+	17 -- 22;
+	17 -- 24;
+	21 -- 22;
+	21 -- 24;
+	21 -- 31;
+	22 -- 24;
+	22 -- 25;
+	22 -- 31;
+	22 -- 34;
+	22 -- 43;
+	25 -- 31;
+	31 -- 34;
+}
