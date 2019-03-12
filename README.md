@@ -20,4 +20,4 @@ test('s50_an1_redDevoir.dot', 'test5.dot', [tobacco_Non], star(7)).<br />
 -- Commande pour générer un graphe à partir d'un fichier dot --<br />
 sfdp -Tpdf test.dot > test.pdf<br />
 <br />
-Le [rapport](rapport.pdf) vous fournira plus explications sur ce projet.
+Le [rapport](./rapport.pdf) vous fournira plus explications sur ce projet.
